@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro{
+    background-color: darkslategray;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border-radius: 3px;
+    display:flex;
+}
+
+.profile{
+    padding-left: 5px;
+    flex: 1;
+}
+
+.title{
+    font-style: italic;
+    font-size: 25px;
+    text-shadow:black 10px 5px 3px;
+    margin-left: 10px;
+}
+
+.profile_picture{
+    height: 200px;
+    width: 200px;
+    border-radius: 1000px;
+}
+
+.about{
+    font-style: italic;
+    font-size: 19px;
+    flex: 2;
+}
+
+.about ul{
+    list-style-type: none;
+}
+.about_icon{
+    height: 40px;
+    width: 40px;
+    background-color: none;
+}
+
+.info{
+    background-color: dimgray;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+    display:flex;
+}
+
+.summary{
+    padding-left: 5px;
+    flex: 1;
+}
+.summary p{
+    margin-left: 7px;
+}
+
+.skills{
+    padding-left: 5px;
+    flex: 2;
+}
+
+.contact{
+    background-color: darkcyan;
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+    color: white;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact ul{
+    list-style-type: none;
+}
